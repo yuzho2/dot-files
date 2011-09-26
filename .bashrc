@@ -122,3 +122,5 @@ export PATH
 
 . /usr/local/Modules/3.2.8/init/bash
 module use ~/modules/
+
+set -o vi
