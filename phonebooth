@@ -1,0 +1,22 @@
+#%Module1.0#####################################################################
+##
+## phonebooth modulefile
+##
+## Modulefile for payton environment
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tSetup the environment for PhoneBooth project."
+
+}
+
+module-whatis	"Setup the environment for PhoneBooth project."
+
+## set environment variable
+
+
+## add toolchain to PATH
+prepend-path    PATH   	  /opt/kw/bin:/opt/kw2/bin
+
+
+

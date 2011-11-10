@@ -1,0 +1,25 @@
+#%Module1.0#####################################################################
+##
+## payton modulefile
+##
+## Modulefile for payton environment
+##
+proc ModulesHelp { } {
+
+        puts stderr "\tSetup the environment for PAYTON project."
+
+}
+
+module-whatis	"Setup the environment for PAYTON project."
+
+## set environment variable
+setenv    LM_LICENSE_FILE 8224@171.71.233.248
+setenv    CONFIG          config_firetux_ft_fxs.mak
+setenv    PAYTON_TRUNK    http://171.71.233.248/svn/payton/payton/trunk
+setenv    PAYTON_1_0_x    http://171.71.233.248/svn/payton/payton/branch/1.0.x
+
+## add toolchain to PATH
+prepend-path    PATH   	  /opt/emlix/pnx8181/bin:/opt/emlix/e2-2.2/bin:~/bin:~/project/payton/script
+
+
+
