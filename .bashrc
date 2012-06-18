@@ -125,5 +125,5 @@ module use ~/modules/
 
 set -o vi
 
-export GREP_OPTIONS="--exclude-dir=.svn --exclude=*.a --exclude=*.o -nR"
+#export GREP_OPTIONS="--exclude-dir=.svn --exclude=*.a --exclude=*.o -nR"
 
