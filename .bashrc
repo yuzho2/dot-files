@@ -117,8 +117,9 @@ fi
 # for armcc
 #export LM_LICENSE_FILE=8224@171.71.233.248
 
-PATH=/opt/p4v-2010.1.276058/bin:/home/yuzho2/go/bin:/home/yuzho2/bin:$PATH
+PATH=/usr/local/go/bin:/opt/p4v-2010.1.276058/bin:/home/yuzho2/bin:$PATH:~/mygo/bin
 export PATH
+export GOPATH=~/mygo
 
 . /usr/local/Modules/3.2.8/init/bash
 module use ~/modules/
