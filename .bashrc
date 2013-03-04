@@ -121,10 +121,12 @@ PATH=/usr/local/go/bin:/opt/p4v-2010.1.276058/bin:/home/yuzho2/bin:$PATH:~/mygo/
 export PATH
 export GOPATH=~/mygo
 
-. /usr/local/Modules/3.2.8/init/bash
-module use ~/modules/
+#. /usr/local/Modules/3.2.8/init/bash
+#module use ~/modules/
 
 set -o vi
 
 export GREP_OPTIONS="--exclude-dir=.svn --exclude=*.a --exclude=*.o -R"
+
+export  EDITOR=vim
 
