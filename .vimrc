@@ -2,7 +2,7 @@ set nocompatible
 syntax enable
 set encoding=utf-8
 
-color evening
+color darkblue
 set number
 set showcmd
 
