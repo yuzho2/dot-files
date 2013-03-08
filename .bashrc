@@ -128,5 +128,7 @@ set -o vi
 
 export GREP_OPTIONS="--exclude-dir=.svn --exclude=*.a --exclude=*.o -R"
 
-export  EDITOR=vim
+export EDITOR=/usr/bin/vim
 
+export JPY=/home/yuzho2/tools/j2/j.py
+. /home/yuzho2/tools/j2/j.sh
