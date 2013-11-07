@@ -13,6 +13,7 @@ set hlsearch
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
+set laststatus=2
 if has('cscope')
   set cscopetag cscopeverbose
 
@@ -29,3 +30,6 @@ if has('cscope')
 
   command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMSRC/src
 endif
+
+let mapleader = ","
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
